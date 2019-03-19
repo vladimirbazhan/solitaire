@@ -1,3 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-	alert("Not implemented");
+	const game = new Game();
+	game.initialize();
+	game.drawDrawPiles();
+	game.drawFinalPiles();
+	game.drawPlayPiles();
 }, false);
